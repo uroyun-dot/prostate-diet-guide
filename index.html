@@ -44,6 +44,7 @@
   }
 
   * { box-sizing: border-box; }
+  html { font-size: 125%; }
   @media (prefers-reduced-motion: reduce) {
     * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
   }
@@ -343,6 +344,10 @@
         <h3>⚠ 출처 불명의 "천연 전립선암 치료제"</h3>
         <p>과거 유행했던 한 복합 약초제품(PC-SPES)은 실제로는 처방약 성분(와파린·에스트로겐 등)이 몰래 섞여있던 것으로 밝혀져 전량 회수된 사례가 있습니다.</p>
       </div>
+      <div class="warn-card">
+        <h3>⚠ "면역력 증강" 표방 제품 전반</h3>
+        <p>버섯추출물·프로폴리스·고용량 비타민C 등 "면역력을 높여 암을 이겨낸다"는 제품들은 대부분 과학적으로 검증되지 않았습니다. 균형 잡힌 식사·수면·운동이 가장 근거가 확실한 방법입니다.</p>
+      </div>
     </div>
     <p class="warn-footer-note">"천연"이라는 표시가 "안전함"을 뜻하지 않습니다. 무엇이든 드시기 전 담당 의료진에게 먼저 알려주세요.</p>
   </div>
@@ -428,7 +433,9 @@
     { q: "영양제나 건강기능식품을 먹기 전에 지켜야 할 원칙이 있나요?", a: "대부분의 암 생존자는 골고루 식사한다면 별도 영양제가 꼭 필요하지는 않습니다. 특정 영양소가 부족하다고 확인된 경우가 아니라면 음식으로 섭취하는 것이 원칙입니다. 항산화 성분(비타민C·E, 베타카로틴, 셀레늄, 코엔자임Q10 등)이 농축된 보충제는 치료 효과를 방해할 가능성이 제기된 연구도 있습니다. 가장 중요한 원칙은 드시고 계시거나 드실 계획인 모든 영양제·한약재·건강기능식품을 담당 의료진에게 반드시 말씀드리는 것입니다.", src: "ACS · NCCN · MSKCC", kw: ["영양제 원칙","건강기능식품","보충제 전반","먹기 전에","영양제 먹어도"] },
     { q: "혈액응고제(와파린)를 먹는데 조심해야 할 음식이 있나요?", a: "와파린을 복용 중이라면 비타민K가 많은 채소(케일·시금치·브로콜리·양배추 등)의 섭취량을 갑자기 늘리거나 줄이지 말고 평소와 비슷하게 꾸준히 유지하는 것이 중요합니다. 또한 쏘팔메토·석류추출물 같은 일부 건강기능식품도 출혈 위험을 높일 수 있으니 함께 복용하지 마시고 의료진과 상의하세요.", src: "일반 약리학 · MSKCC", kw: ["와파린","혈액응고제","비타민k","혈전약"] },
     { q: "발기부전 치료제를 먹는데 자몽을 먹어도 되나요?", a: "실데나필(비아그라)·타다라필(시알리스) 같은 발기부전 치료제는 자몽(자몽주스)과 함께 복용하면 약물 혈중 농도가 높아져 두통·홍조·저혈압 같은 부작용이 심해질 수 있습니다. 약 복용 전후로는 자몽 섭취를 피하는 것이 안전합니다.", src: "일반 약리학 자료", kw: ["자몽","비아그라","시알리스","발기부전 약"] },
-    { q: "녹차가 전립선암에 도움이 되나요?", a: "녹차가 전립선암 위험을 낮춘다는 근거는 아직 뚜렷하지 않으며, 일부 연구에서는 다른 성분과 고용량으로 조합했을 때 예상과 다른 결과가 나온 경우도 있었습니다. 일상적으로 즐기는 정도의 녹차는 특별히 피할 이유는 없지만, 치료 목적의 고농축 녹차 추출물 보충제는 권장되지 않습니다.", src: "MSKCC · NCI", kw: ["녹차","green tea"] }
+    { q: "녹차가 전립선암에 도움이 되나요?", a: "녹차가 전립선암 위험을 낮춘다는 근거는 아직 뚜렷하지 않으며, 일부 연구에서는 다른 성분과 고용량으로 조합했을 때 예상과 다른 결과가 나온 경우도 있었습니다. 일상적으로 즐기는 정도의 녹차는 특별히 피할 이유는 없지만, 치료 목적의 고농축 녹차 추출물 보충제는 권장되지 않습니다.", src: "MSKCC · NCI", kw: ["녹차","green tea"] },
+    { q: "면역력을 높여준다는 영양제(면역증강제)를 먹어도 되나요?", a: "특정 영양제나 건강기능식품이 면역력을 높여 암 재발을 막아준다는 과학적으로 검증된 근거는 없습니다. 버섯추출물(상황버섯·차가버섯 등), 프로폴리스, 고용량 비타민C 같은 '면역 증강' 제품들은 대부분 임상적으로 확인되지 않았고, 일부는 오히려 치료 효과를 방해하거나 다른 약물과 상호작용할 수 있습니다. 균형 잡힌 식사, 충분한 수면, 꾸준한 운동이 면역 기능 유지에 가장 근거가 확실한 방법입니다. 드시고 계시거나 드실 계획이라면 반드시 담당 의료진에게 먼저 알려주세요.", src: "ACS · NCCN · MSKCC", kw: ["면역","면역력","면역증강","면역증가","보양식품","상황버섯","차가버섯","버섯추출물","프로폴리스"] },
+    { q: "생선을 많이 먹는 게 도움이 되나요?", a: "네. 연어·고등어·참치처럼 오메가-3가 풍부한 생선을 주 2회 이상(1회 약 110g) 드시는 것이 권장됩니다. 오메가-3는 염증을 줄이는 데 도움이 될 수 있습니다. 생선이 부담스럽다면 들깨·호두·아마씨 같은 식물성 오메가-3 공급원도 활용할 수 있습니다.", src: "MSKCC", kw: ["생선","오메가3","오메가-3","연어","고등어","참치"] }
   ];
 
   var QUICK = [0,1,4,10,11,15,16].map(function(i){ return QA[i]; });
@@ -476,8 +483,18 @@
     });
   }
 
-  function score(text, item) {
-    var norm = text.toLowerCase().replace(/\s+/g, "");
+  var PARTICLES = ["에서","에게","까지","부터","처럼","보다","라도","이나","은는","은","는","이","가","을","를","의","에","도","만","과","와","나"];
+  function stripParticle(w) {
+    for (var i = 0; i < PARTICLES.length; i++) {
+      var p = PARTICLES[i];
+      if (w.length > p.length && w.slice(-p.length) === p) return w.slice(0, -p.length);
+    }
+    return w;
+  }
+  function corpusOf(item) {
+    return (item.q + " " + item.a).toLowerCase().replace(/\s+/g, "");
+  }
+  function kwScore(norm, item) {
     var s = 0;
     item.kw.forEach(function (k) {
       var words = k.toLowerCase().split(/\s+/).filter(Boolean);
@@ -486,6 +503,28 @@
     });
     if (norm.indexOf(item.q.toLowerCase().replace(/\s+/g, "").slice(0, 6)) !== -1) s += 1;
     return s;
+  }
+  function docFreq(word) {
+    var c = 0;
+    QA.forEach(function (item) { if (corpusOf(item).indexOf(word) !== -1) c++; });
+    return c;
+  }
+  function fuzzyScore(text, item) {
+    var words = text.toLowerCase().replace(/[?!.,]/g, " ").split(/\s+/)
+      .map(stripParticle)
+      .filter(function (w) { return w.length >= 2; });
+    var c = corpusOf(item);
+    var s = 0;
+    words.forEach(function (w) {
+      if (c.indexOf(w) === -1) return;
+      if (docFreq(w) > 3) return; // too generic (appears in most answers) — not a useful signal
+      s += 1;
+    });
+    return s;
+  }
+  function score(text, item) {
+    var norm = text.toLowerCase().replace(/\s+/g, "");
+    return kwScore(norm, item) * 5 + fuzzyScore(text, item);
   }
 
   function findAnswer(text) {
